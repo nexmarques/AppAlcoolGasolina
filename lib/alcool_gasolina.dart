@@ -47,7 +47,7 @@ class _MyAppState extends State<MyApp> {
     return Scaffold(
       appBar: AppBar(
         title: const Text("Álcool ou Gasolina"),
-        backgroundColor: Colors.purpleAccent,
+        backgroundColor: Colors.blue,
       ),
       body: SingleChildScrollView(        
         
@@ -101,7 +101,7 @@ class _MyAppState extends State<MyApp> {
                 child: ElevatedButton(                 
                 onPressed: calcular, 
                  style:  ElevatedButton.styleFrom(
-                    backgroundColor: Colors.purpleAccent,
+                    backgroundColor: Colors.blue,
                     foregroundColor: Colors.white                    
                  ),
                 child: const Text("Calcular"),
@@ -112,7 +112,7 @@ class _MyAppState extends State<MyApp> {
                  ElevatedButton(
                     onPressed: limparEstados,
                     style: ElevatedButton.styleFrom(
-                      backgroundColor: Colors.purpleAccent,
+                      backgroundColor: Colors.blue,
                       foregroundColor: Colors.white
                     ), 
                     child: const Text(
